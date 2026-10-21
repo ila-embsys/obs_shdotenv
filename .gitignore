@@ -1,0 +1,25 @@
+# OSC working copy metadata
+.osc/
+
+# OBS Source Service runtime data
+_service:*
+_servicedata
+.old/
+
+# Source archives & extracted checkouts
+*.obscpio
+*.obsinfo
+*.tar
+*.tar.*
+shdotenv/
+shdotenv-*/
+
+# Local builds & RPM outputs
+*.rpm
+*.log
+.build.packages/
+
+# Temporary files (e.g., osc vc)
+*.vctmp.*
+*~
+*.swp

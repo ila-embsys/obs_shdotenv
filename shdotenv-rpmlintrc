@@ -1,0 +1,4 @@
+# shdotenv is a POSIX /bin/sh shell script with embedded awk code.
+# The warning is triggered by awk function declarations and help text containing "[[".
+addFilter("potential-bashisms /usr/bin/shdotenv")
+
